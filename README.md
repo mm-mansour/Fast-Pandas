@@ -1,4 +1,5 @@
-#Fast Pandas
+# Fast Pandas
+
 #### A Benchmarked Pandas Cheat Sheet
 Pandas is one of the most flexible and powerful tools available for data scientists and developers. Being very flexible, one can perform a given task in several ways. This project aims to benchmark the different available methods in such situations; moreover, there is a special section for functions found in both numpy and pandas.
 
