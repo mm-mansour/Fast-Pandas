@@ -3,11 +3,11 @@ import pandas as pd
 import numexpr as ne
 
 
-def query_selection(df):
+def bracket_selection(df):
     return df[(df["A"] > 0) & (df["A"] < 100)]
 
 
-def bracket_selection(df):
+def query_selection(df):
     return df.query("A > 0 and A < 100")
 
 
