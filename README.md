@@ -103,8 +103,8 @@ def ne_create_selection(df):
     return pd.DataFrame(df.values[mask], df.index[mask], df.columns)
 ```
  * ***ne_create_selection* is the fastest method for dataframes smaller than 10000 rows, followed bt *ne_selection* for larger data frames.**
- * ***loc and query selections* are identical in performance.**
- * **Square bracket selection is the slowest method.**
+ * ***loc and bracket selections* are identical in performance.**
+ * **query selections selection is the slowest method.**
 ![](https://i.imgur.com/iy2c44M.png)
 #### 1.4 - Creating a new column:
 Tested functions:
