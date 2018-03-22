@@ -123,7 +123,7 @@ def eval_method(df):
 
 ## 2 - Pandas vs Numpy.
 
-This section tests the performance of functions that are found in both numpy and padnas. 
+This section tests the performance of functions that are found in both numpy and pandas. 
 #### 2.1 - Summation performance:
 Tested functions:
    
