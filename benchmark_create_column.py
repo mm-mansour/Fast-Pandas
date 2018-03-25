@@ -5,7 +5,7 @@ def regular(df):
     df["E"] = df["A"] * df["B"] + df["C"]
 
 
-def use_np_values(df):
+def df_values(df):
     df["E"] = df["A"].values * df["B"].values + df["C"].values
 
 
@@ -15,7 +15,7 @@ def eval_method(df):
 
 params = {
     "df_generator": 'pd.DataFrame(np.random.randint(1, df_size, (df_size, 4)), columns=list("ABCD"))',
-    "functions_to_evaluate": [regular, use_np_values, eval_method],
+    "functions_to_evaluate": [df_values, regular, eval_method],
     "title": "Benchmark for column creation",
 }
 
